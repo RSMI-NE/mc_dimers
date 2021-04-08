@@ -1,1 +1,2 @@
-# mc_dimers
+# DimerDirectedLoop.jl
+
