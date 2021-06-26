@@ -1,3 +1,5 @@
-julia ../src/DimerMCSimulation.jl --basedir "/RSMI-NE/" --outdir "/RSMI-NE/mc_dimer/data"\
-							--num-sweeps 100 --num-realisations 100 --eqtime 60 --num-subsweeps 2\
-							--temperatures 10.0 --system-size 30 --threads 5 -cpv
+julia ../src/DimerMCSimulation.jl --basedir "/Users/dorukefegokmen/Documents/Research/"\
+							--outdir "/Users/dorukefegokmen/Documents/Research/mc_dimers/data"\
+							--num-sweeps 1000 --num-realisations 8 --num-subsweeps 2\
+							--eqtime 8 --temperatures 100.0 --system-size 96\
+							--threads 8 --mc-method 'heat_bath' -cp

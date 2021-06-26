@@ -150,7 +150,7 @@ end
 @everywhere using SharedArrays
 @everywhere using StatsBase
 @everywhere using Statistics
-@everywhere include(joinpath(base_directory, "RSMI-NE/mc_dimer/src/DimerDirectedLoop.jl"))
+@everywhere include(joinpath(base_directory, "mc_dimers/src/DimerDirectedLoop.jl"))
 
 if verbose
 	println("Precompilation complete.\n")
